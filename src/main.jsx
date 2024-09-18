@@ -1,15 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Navbar from './components/navbar'
-import Sponsors from './components/sponsors'
-import Footer from './components/footer'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Home from "./Pages/Home.jsx";
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Navbar/>
-    <Sponsors/>
-    <Footer/>
-  </React.StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <React.StrictMode>
+        <Home />
+    </React.StrictMode>
+);

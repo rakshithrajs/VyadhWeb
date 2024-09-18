@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-        "./index.html",
-        "./src/**/*.{js,ts,jsx,tsx}",
-        "node_modules/preline/dist/*.js",
-    ],
+    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         fontFamily: {
             sans: ["ui-sans-serif", "system-ui"],
@@ -25,5 +21,5 @@ export default {
             },
         },
     },
-    plugins: [require("preline/plugin"), require("@tailwindcss/line-clamp")],
+    plugins: [],
 };

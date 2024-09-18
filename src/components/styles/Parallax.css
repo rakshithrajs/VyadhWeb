@@ -1,0 +1,26 @@
+.TeamVyadh {
+    animation: scale-out linear forwards;
+    animation-timeline: view();
+    animation-range: end;
+}
+
+@keyframes scale-out {
+    to {
+        scale: 3;
+        opacity: 0;
+    }
+}
+
+
+.TeamVyadh h1 {
+    animation: fade-out linear forwards;
+    animation-timeline: view();
+    animation-range-start: entry 100px;
+}
+
+@keyframes fade-out {
+    to {
+        scale: 0;
+        opacity: 0;
+    }
+}
